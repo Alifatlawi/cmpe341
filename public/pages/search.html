@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Customer</title>
+    <link rel="stylesheet" href="/search.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Search Customer</h1>
+        <form id="search-form">
+            <label for="customer-id">Customer ID:</label>
+            <input type="text" id="customer-id" name="customer-id" required>
+            <button type="submit">Search</button>
+        </form>
+        <div id="update-form-container">
+            <h2>Update Information</h2>
+            <form id="update-form">
+                <label for="customer-name">Customer Name:</label>
+                <input type="text" id="customer-name" name="customer-name">
+                <br>
+                <label for="pet-name">Pet Name:</label>
+                <input type="text" id="pet-name" name="pet-name">
+                <br>
+                <label for="appointment-date">Appointment Date:</label>
+                <input type="date" id="appointment-date" name="appointment-date">
+                <br>
+                <button type="submit">Update</button>
+                <button type="button" id="delete-btn">Delete</button>
+            </form>
+        </div>
+    </div>
+    <script src="/search.js"></script>
+</body>
+</html
